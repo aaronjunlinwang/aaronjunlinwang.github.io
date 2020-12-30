@@ -2708,7 +2708,7 @@ hr {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #adaca6;
+  background: #ff4f40;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2733,4 +2733,12 @@ hr {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
